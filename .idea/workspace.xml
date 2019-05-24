@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35dea9cb-d006-473e-9cb8-4334a53c901f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry_static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry_static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_double_check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_double_check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_inner_static_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_inner_static_class.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="892" />
+          <entry key="JAVA" value="917" />
           <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
@@ -40,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="132">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding>
                 <element signature="e#186#187#0" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
@@ -62,17 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_double_check.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="165">
+              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_inner_static_class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="264">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
               <folding>
                 <element signature="e#395#396#0" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
@@ -81,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry_static.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="162">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="e#284#285#0" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
@@ -136,12 +139,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/org/hm/magic/MagicNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_lazy1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_lazy_unsafe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_lazy_safe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_enum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_double_check.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_inner_static_class.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry_static.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_double_check.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_inner_static_class.java" />
       </list>
     </option>
   </component>
@@ -215,7 +218,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558680331689" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558680763334" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -297,18 +300,18 @@
       <updated>1557217788033</updated>
       <workItem from="1557217789583" duration="1332000" />
       <workItem from="1557734172805" duration="8000" />
-      <workItem from="1558614146808" duration="3336000" />
+      <workItem from="1558614146808" duration="3577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4676000" />
+    <option name="totallyTimeSpent" value="4917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +327,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -384,28 +387,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_double_check.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry_static.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="162">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_inner_static_class.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_double_check.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="132">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#216#217#0" expanded="true" />
@@ -413,13 +416,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_hungry_static.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/pattern/singleton/Singleton_inner_static_class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="264">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
           <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
