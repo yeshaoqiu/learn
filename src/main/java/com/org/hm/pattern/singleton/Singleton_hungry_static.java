@@ -4,7 +4,7 @@ package com.org.hm.pattern.singleton;
  * 饿汉式（可用）
  */
 public class Singleton_hungry_static {
-    private static Singleton_hungry_static INSTANCE = null;
+    private static Singleton_hungry_static INSTANCE;
 
     static {
         INSTANCE = new Singleton_hungry_static();
