@@ -1,5 +1,7 @@
 package com.org.hm.pattern.singleton;
 
+import java.sql.SQLOutput;
+
 /**
  * 枚举（可用，强烈推荐）
  * 解决反序列化破坏单例
@@ -8,7 +10,7 @@ package com.org.hm.pattern.singleton;
 public enum Singleton_enum {
     INSTANCE;
 
-    private String data;
+    private Object data;
 
     Singleton_enum(){
         System.out.println("init once");
@@ -16,7 +18,7 @@ public enum Singleton_enum {
     }
 
     //usage
-    public String whateverMethod(){
+    public Object whateverMethod(){
         return data;
     }
 
@@ -28,5 +30,6 @@ public enum Singleton_enum {
 
         System.out.println(Singleton_enum.INSTANCE.whateverMethod());
 
+        System.out.println(Singleton_enum.INSTANCE.whateverMethod().equals(Singleton_enum.INSTANCE.whateverMethod()));
     }
 }
