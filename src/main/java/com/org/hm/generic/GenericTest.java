@@ -1,4 +1,4 @@
-package com.org.hm.Generic;
+package com.org.hm.generic;
 
 import java.util.ArrayList;
 import java.util.List;
