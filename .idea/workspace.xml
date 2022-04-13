@@ -1,49 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="35dea9cb-d006-473e-9cb8-4334a53c901f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/thread/doc/1、java并发编程基础概念.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/thread/doc/2、java多线程基础API.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/thread/doc/3、java线程间的共享.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/thread/doc/4、java线程间的协作.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/thread/doc/5、java线程并发工具类.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/thread/doc/6、java原子操作CAS.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/hm/funny/RandomWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1847880437">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="41" />
-          <entry key="Markdown" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1871" />
-          <entry key="Markdown" value="502" />
-          <entry key="PLAIN_TEXT" value="29" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
@@ -191,6 +163,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectId" id="27hTsf7wWQxNsJzIUQzTvEcQyHI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -273,7 +246,14 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="RecursiveTask&#9;PSI&#9;JAVA://java.util.concurrent.RecursiveTask&#10;RecursiveAction&#9;PSI&#9;JAVA://java.util.concurrent.RecursiveAction&#10;ForkJoinPool&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;ForkJoinTask&#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinTask" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -287,34 +267,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/org/hm" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Singleton_enum">
+  <component name="RunManager" selected="Application.RandomWord">
     <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.org.hm.thread.CountDownLatchTest" />
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.org.hm.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExchangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.org.hm.thread.ExchangerTest" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -332,6 +287,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.org.hm.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.hm.funny.RandomWord" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.org.hm.funny.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,21 +335,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.CountDownLatchTest" />
-      <item itemvalue="Application.ExchangerTest" />
       <item itemvalue="Application.PhaserTest" />
       <item itemvalue="Application.SignalAllTest" />
       <item itemvalue="Application.Singleton_enum" />
+      <item itemvalue="Application.RandomWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomWord" />
         <item itemvalue="Application.Singleton_enum" />
         <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.SignalAllTest" />
         <item itemvalue="Application.PhaserTest" />
-        <item itemvalue="Application.ExchangerTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -486,8 +455,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/org/hm/ds/sort/SortTestMain.java">
